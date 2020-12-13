@@ -1,2 +1,2 @@
 # simplecakeapp
-simple project
+simple project with firebase
