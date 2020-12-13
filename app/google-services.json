@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "518427808557",
+    "firebase_url": "https://cakestudio-4b574.firebaseio.com",
+    "project_id": "cakestudio-4b574",
+    "storage_bucket": "cakestudio-4b574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518427808557:android:a5225bb560201c22",
+        "android_client_info": {
+          "package_name": "com.example.cakestudio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518427808557-p43po95oobgrg4niiaduu4fk8hbad2ta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cakestudio",
+            "certificate_hash": "4c4d2d4a149028c03c5bc7de3bd223f115fe7cef"
+          }
+        },
+        {
+          "client_id": "518427808557-p0st9bns971ocsos4vorsadot5sop4sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc3no4ckfESHUpt11mpoFQrFxSRNsKE2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518427808557-p0st9bns971ocsos4vorsadot5sop4sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

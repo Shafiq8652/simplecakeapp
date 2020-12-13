@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_cart"
+    android:padding="10dp">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allusers">
+
+    </ListView>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@id/allusers"
+        android:text="Your order has been placed"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+
+        android:id="@+id/textView1"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/textview_border"
+        android:layout_below="@id/textView">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Message on cake:-"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_below="@id/textView1"
+        >
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textMessage"
+        android:layout_gravity="right">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Delivery Address:-"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_below="@id/textView2"
+        >
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAddress"
+        android:layout_gravity="right">
+    </TextView>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:id="@+id/cancelorder"
+        android:layout_marginTop="20dp"
+        android:text="cancel order"
+        android:background="@drawable/button_round"
+        android:gravity="center"
+        android:layout_below="@id/textView3"/>
+
+
+
+<TextView
+    android:id="@+id/textcontact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+    android:text="Contact no:- 1234567890"
+    android:background="@drawable/textview_border"
+    android:layout_below="@id/cancelorder">
+
+</TextView>
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/contactus"
+        android:layout_below="@id/textcontact">
+
+    </ImageView>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/Logout"
+        android:gravity="center"
+        android:text="logout"
+        android:background="@drawable/logout_button"
+        android:layout_below="@id/imageView"/>
+    <Button
+        android:gravity="center"
+        android:layout_marginLeft="160dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/menu1"
+        android:layout_toRightOf="@id/Logout"
+        android:text="menu"
+        android:layout_below="@id/imageView"
+        android:background="@drawable/button_round"/>
+
+
+
+</RelativeLayout>

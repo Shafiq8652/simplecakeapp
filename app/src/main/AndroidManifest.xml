@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cakestudio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apppiconicon"
+        android:label="cake studio"
+        android:roundIcon="@drawable/apppiconicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NavigationActivity"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Order_cart" />
+        <activity android:name=".DoreamoncakeActivity" />
+        <activity android:name=".AvengerscakeActivity" />
+        <activity android:name=".CouplecakeActivity" />
+        <activity android:name=".CartooncakeActivity" />
+        <activity android:name=".MixfruitcakeActivity" />
+        <activity android:name=".BlueberrycakeActivity" />
+        <activity android:name=".PineapplecakeActivity" />
+        <activity android:name=".OrangecakeActivity" />
+        <activity android:name=".MangocakeActivity" />
+        <activity android:name=".DesignSocialActivity" />
+        <activity android:name=".DesignIphoneActivity" />
+        <activity android:name=".DesignComputerActivity" />
+        <activity android:name=".DesignSleepActivity" />
+        <activity android:name=".DesignMakeupActivity" />
+        <activity android:name=".DesignBrandedActivity" />
+        <activity android:name=".RedVelvetCupcakeActivity" />
+        <activity android:name=".RedVelvetCheeseActivity" />
+        <activity android:name=".RedVellvetSpecialActivity" />
+        <activity android:name=".BasicRedVelvettActivity" />
+        <activity android:name=".GoldenVanillaActivity" />
+        <activity android:name=".EgglessVanillaActivity" />
+        <activity android:name=".ClassicVanillaActivity" />
+        <activity android:name=".BlackForestActivity" />
+        <activity android:name=".ChocolateDevilActivity" />
+        <activity android:name=".ChocolateCheeseActivity" />
+        <activity android:name=".ChocolateRaspberryActivity" />
+        <activity android:name=".ChocolateCoconutActivity" />
+        <activity android:name=".PhotoActivity" />
+        <activity android:name=".FruitActivity" />
+        <activity android:name=".designActivity" />
+        <activity android:name=".RedVelvetActivity" />
+        <activity android:name=".VanillaActivity" />
+        <activity android:name=".ChocolateActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".signupActivity" />
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
